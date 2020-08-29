@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Posts
+
 {% for post in site.posts %}
   <li>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
