@@ -2,6 +2,10 @@
 layout: default
 ---
 
+# Projects
+
+[DailyMed API](https://github.com/coderxio/dm_extracts)
+
 # Posts
 
 {% for post in site.posts %}
