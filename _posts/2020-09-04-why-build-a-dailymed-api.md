@@ -3,7 +3,6 @@ layout: post
 title:  "Why build a DailyMed API?"
 author: Joey LeGrand
 date:   2020-09-04 07:30:00 -0600
-published: false
 categories: dailymed-api
 ---
 If you're reading this, you probably know what DailyMed is... but just in case you don't, I'll give a brief intro. [DailyMed](https://dailymed.nlm.nih.gov/dailymed/) is the official provider of FDA label information - package inserts or stuctured product labels (SPLs). The website provides a "standard, comprehensive, up-to-date, look-up and download resource of medication content and labeling found in medication package inserts" which is honestly very easy to use and quite useful as a clinician or as anyone who uses medication labeling information. 
