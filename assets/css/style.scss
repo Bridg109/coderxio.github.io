@@ -15,7 +15,12 @@ a:hover, a:focus {
   font-decoration: underline
 }
 
+a:post-link::hover{
+  font-weight: normal;
+  font-decoration: underline
+}
+
+
 header img.header-logo{
 width: 5em;
-
 }
