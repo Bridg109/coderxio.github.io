@@ -7,5 +7,5 @@ a:hover, a:focus {
   color:#069;
 }
 header img .header-logo{
-  width: 5em;
+  width: 5em !important ;
 } 
