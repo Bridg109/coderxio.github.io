@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+a:hover, a:focus {
+  color:#069;
+}
+
 header img.header-logo{
 width: 5em;
 
