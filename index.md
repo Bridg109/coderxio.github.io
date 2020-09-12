@@ -4,7 +4,7 @@ layout: default
 
 # Projects
 
-[DailyMed API](https://github.com/coderxio/dailymed-api)
+- [DailyMed API](https://github.com/coderxio/dailymed-api)
 
 # Posts
 
