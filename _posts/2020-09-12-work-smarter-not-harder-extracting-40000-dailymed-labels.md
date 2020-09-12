@@ -57,7 +57,7 @@ xml_file_directory = zip_file_directory / 'xml'
 main_zip_file = list(data_dir.glob('*.zip'))[0]
 ```
 
-Now for the fun part. You don't need to know the specifics of what the code below does, but just think conceptually about how a script would loop through the files in the 1-4 image above.
+Now for the fun part. You don't need to know the specifics of what the code below does, but just think conceptually about how a script would loop through the files in the file structure image above.
 
 ```python
 with zipfile.ZipFile(main_zip_file) as zip_main:
