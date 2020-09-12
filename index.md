@@ -8,11 +8,14 @@ layout: default
 
 # Posts
 
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
+{% for category in site.categories %}
+  <h3>{{ category[0] }}</h3>
   <ul>
-    {% for post in tag[1] %}
-      <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% for post in category[1] %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
     {% endfor %}
   </ul>
 {% endfor %}
