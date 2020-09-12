@@ -5,7 +5,7 @@ author: Joey LeGrand
 date:   2020-09-12 07:30:00 -0600
 categories: dailymed-api
 tags: dailymed api python
-published: true
+published: false
 ---
 This article is specific to work we are doing on the [DailyMed API project](https://github.com/coderxio/dailymed-api), but the fundamental concepts apply to a lot of things in a "knowledge worker" type of job, and certainly in many areas of healthcare as well. The specific issue we were facing is that [DailyMed offers a full download of all its structured product labels (SPLs)](https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm), but they are provided as four separate zip files which each have thousands of other zip files in them, which each have label images in addition to the label XML data.
 
