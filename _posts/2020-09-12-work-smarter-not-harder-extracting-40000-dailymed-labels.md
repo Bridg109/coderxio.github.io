@@ -7,7 +7,7 @@ categories: dailymed-api
 tags: dailymed api python
 published: true
 ---
-*Post inspired by CodeRx contributing member [Yevgeny Bulochnik](https://github.com/yevgenybulochnik) for his work on [extract_zips.py](https://github.com/coderxio/dailymed-api/blob/master/extract_zips.py).*
+*Post inspired by CodeRx contributing member [Yevgeny Bulochnik](https://github.com/yevgenybulochnik) and his work on [extract_zips.py](https://github.com/coderxio/dailymed-api/blob/master/extract_zips.py).*
 
 This post is specific to work [members of the CodeRx team](https://github.com/coderxio/dailymed-api/graphs/contributors) are doing on the [DailyMed API project](https://github.com/coderxio/dailymed-api), but the fundamental concepts apply to a lot of things in any "knowledge worker" job, and certainly in many areas of healthcare as well. The specific issue we were facing is that [DailyMed offers a full download of all its structured product labels (SPLs)](https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm), but they are provided as four separate zip files which each have thousands of other zip files in them, which each have label images in addition to the label XML data.
 
