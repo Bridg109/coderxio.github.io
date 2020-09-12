@@ -71,10 +71,10 @@ with zipfile.ZipFile(main_zip_file) as zip_main:
 
 We need to start with the main zip file.
 
-'''python
+```python
 with zipfile.ZipFile(main_zip_file) as zip_main:
 ...
-'''
+```
 
 ![DailyMed main zip file](https://raw.githubusercontent.com/coderxio/coderxio.github.io/master/assets/img/dailymed-zip-1.jpg)
 
