@@ -28,7 +28,7 @@ current_file_directory = Path(__file__).parent.absolute()
 zip_file_directory = current_file_directory / 'zip'
 xml_file_directory = zip_file_directory / 'xml'
 
-main_zip_file = list(data_dir.glob('*.zip'))[0]
+main_zip_file = list(zip_file_directory.glob('*.zip'))[0]
 
 with zipfile.ZipFile(main_zip_file) as zip_main:
     for spl_zip_files in zip_main.namelist():
@@ -54,7 +54,7 @@ current_file_directory = Path(__file__).parent.absolute()
 zip_file_directory = current_file_directory / 'zip'
 xml_file_directory = zip_file_directory / 'xml'
 
-main_zip_file = list(data_dir.glob('*.zip'))[0]
+main_zip_file = list(zip_file_directory.glob('*.zip'))[0]
 ```
 
 Now for the fun part. You don't need to know the specifics of what the code below does, but just think conceptually about how a script would loop through the files in the file structure image above.
