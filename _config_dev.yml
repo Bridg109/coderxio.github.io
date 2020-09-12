@@ -1,0 +1,8 @@
+title: CodeRx
+logo: /assets/img/logo_joey.png
+theme: jekyll-theme-minimal
+host: 0.0.0.0
+livereload: true
+exclude:
+  - docker-compose.yml
+  - Dockerfile
