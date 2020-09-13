@@ -4,13 +4,13 @@ layout: default
 
 # Organization
 {% for user in organization_members %}
-  * {{ user }}
+  * {{ user.login }}
 {% endfor %}
 
 # Projects
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.project_title }}]({{ repository.html_url }})
+  * [{{ repository.repository_name }}]({{ repository.html_url }}) - {{ repository.project_tagline }}
   {% for user in repository.contributors %}
-    {{ user.name }}
+    {{ user.username }}
   {% endfor %}
 {% endfor %}
