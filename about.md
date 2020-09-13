@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+# About
 
-# Organization
+## Organization
 {% for user in site.github.organization_members %}
-  * {{ user.login }}
+  * ![{{ user.login }}](user.avatar_url) [{{ user.login }}]({{ user.url }})
 {% endfor %}
 
 <script>
@@ -14,7 +15,7 @@ layout: default
  
 </script>
 
-# Projects
+## Projects
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
   {% for user in repository.contributors %}
