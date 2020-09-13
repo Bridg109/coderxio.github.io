@@ -5,7 +5,7 @@ layout: default
 
 ## Organization
 {% for user in site.github.organization_members %}
-  * ![{{ user.login }}](user.avatar_url) [{{ user.login }}]({{ user.url }})
+  * ![{{ user.login }}](user.avatar_url) [{{ user.login }}]({{ user.html_url }})
 {% endfor %}
 
 <script>
