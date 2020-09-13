@@ -11,7 +11,7 @@ layout: default
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
   {% for user in repository.contributors %}
-    * {{ user.login }}
+    * {{ user.name }}
   {% endfor %}
 
 {% endfor %}
