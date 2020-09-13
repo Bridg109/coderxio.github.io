@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Organization
 {% for user in organization_members %}
   * {{ user.name }}
