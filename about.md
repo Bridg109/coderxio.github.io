@@ -4,7 +4,7 @@ layout: default
 
 # Organization
 {% for user in site.github.organization_members %}
-  * {{ user.name }}
+  * {{ user.login }}
 {% endfor %}
 
 # Projects
