@@ -20,7 +20,6 @@ layout: default
 
 <script>
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
    console.log({{ repository }})
 {% endfor %}
  
