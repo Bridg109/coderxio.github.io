@@ -11,7 +11,9 @@ layout: default
 
 ## Projects
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }}) (Language: {{ repository.language }})
+  * [{{ repository.name }}]({{ repository.html_url }}) 
+    * Primary language: {{ repository.language }}
+    * [Contributors]({{ repository.contributors_url }})
 {% endfor %}
 
 
