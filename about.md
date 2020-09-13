@@ -4,7 +4,7 @@ layout: default
 # About
 
 
-## Members
+## Contributing Members
 {% for user in site.github.organization_members %}
   * [{{ user.login }}]({{ user.html_url }})
 {% endfor %}
