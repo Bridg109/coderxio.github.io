@@ -18,14 +18,14 @@ RxNorm has a "Prescribable" endpoint that will only return prescribable drugs. O
 
 As a "tiebreaker" (if two meds have the same number of vowels), I chose to do a secondary sort based on the number of letters in the word (or the length of the "string" in programming lingo). Then, once I sorted the list, I output the list in CSV so I could play around with it. You can open the CSV in Excel and filter out any of the TTYs you don't care about (i.e. if you only care about brand name drugs).
 
-Here's a link to the CSV: [vowels.csv](https://github.com/coderxio/coderxio.github.io/blob/master/assets/data/vowels.csv)
+Here's a link to the CSV (if you want to download it, click "Raw" and then right click and click "Save as": [vowels.csv](https://github.com/coderxio/coderxio.github.io/blob/master/assets/data/vowels.csv)
 
 In case you're wondering, the top meds in each category are:
 - IN with 46 vowels and 147 letters (RXCUI = 2392632) - sodium 2-acrylamido-2-methyl-1-propane sulfonate/sodium acrylate/n-isopropylacrylamide/trimethyl(3-methacrylamidopropyl)ammonium chloride copolymer
 - MIN with 509 vowels and 1543 letters (RXCUI = 1008785) - Streptococcus pneumoniae type 1 capsular polysaccharide antigen / Streptococcus pneumoniae type 10A capsular polysaccharide antigen / Streptococcus pneumoniae type 11A capsular polysaccharide antigen / Streptococcus pneumoniae type 12F capsular polysaccharide antigen / Streptococcus pneumoniae type 14 capsular polysaccharide antigen / Streptococcus pneumoniae type 15B capsular polysaccharide antigen / Streptococcus pneumoniae type 17F capsular polysaccharide antigen / Streptococcus pneumoniae type 18C capsular polysaccharide antigen / Streptococcus pneumoniae type 19A capsular polysaccharide antigen / Streptococcus pneumoniae type 19F capsular polysaccharide antigen / Streptococcus pneumoniae type 2 capsular polysaccharide antigen / Streptococcus pneumoniae type 20 capsular polysaccharide antigen / Streptococcus pneumoniae type 22F capsular polysaccharide antigen / Streptococcus pneumoniae type 23F capsular polysaccharide antigen / Streptococcus pneumoniae type 3 capsular polysaccharide antigen / Streptococcus pneumoniae type 33F capsular polysaccharide antigen / Streptococcus pneumoniae type 4 capsular polysaccharide antigen / Streptococcus pneumoniae type 5 capsular polysaccharide antigen / Streptococcus pneumoniae type 6B capsular polysaccharide antigen / Streptococcus pneumoniae type 7F capsular polysaccharide antigen / Streptococcus pneumoniae type 8 capsular polysaccharide antigen / Streptococcus pneumoniae type 9N capsular polysaccharide antigen / Streptococcus pneumoniae type 9V capsular polysaccharide antigen
 - BN with 17 vowels and 49 letters (RXCUI = 1438498) - Preparation H Suppositories Reformulated Oct 2013
 
-And here is the script:
+And here is the (heavily commented) script:
 
 ```python
 # import the requests library 
