@@ -9,7 +9,7 @@ published: true
 ---
 ![meme](https://raw.githubusercontent.com/coderxio/coderxio.github.io/master/assets/img/noone-meme.jpg)
 
-I am sharing this because I jokingly told someone on a pharmacist Slack channel that it would be a good idea for a valuable, worthwhile pharmacy informatics resident project to sort all medications based on number of vowels and they took me seriously. I felt bad because I didn't want to waste that resident's time.  Obviously there is zero face value in this type of list, but part of me still thought it was kind of a good exercise to get familiar with the RxNorm API and some basic Python sorting and CSV exporting functionality. So, as a sort of penance, I wrote the script myself.
+I am sharing this because I jokingly told someone on a pharmacist Slack channel that it would be a good idea for a valuable, worthwhile pharmacy informatics resident project to sort all medications based on number of vowels and they took me seriously. I felt bad because I didn't want to waste that resident's time.  Obviously there is zero face value in this type of list, but part of me still thought it was kind of a good exercise to get familiar with the RxNorm APIs and some basic Python sorting and CSV exporting functionality. So, as a sort of penance, I wrote the script myself.
 
 RxNorm has a ["Prescribable" API endpoint](https://rxnav.nlm.nih.gov/PrescribableAPIREST.html) that will only return prescribable drugs. Otherwise, you will get all drugs including veterinary medications and OTC medications. For those of you unfamiliar with RxNorm, it also classifies medications based on different levels called ["term types" or "TTY"](https://www.nlm.nih.gov/research/umls/rxnorm/docs/appendix5.html). For the purpose of this arbitrary example, I chose to go with the following:
 - IN - ingredient
@@ -45,7 +45,7 @@ def count_vowels(string):
         if s in vowels:
             # increase the count by one
             count = count + 1
-    #return the total count
+    # return the total count
     return count
 
 # API endpoint
