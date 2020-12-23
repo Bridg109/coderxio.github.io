@@ -37,6 +37,7 @@ Notes:
 * Other payment or history related feeds to support system integration needs
 
 ## Why EDI isn't the same as API
+EDI is essentially an electronic version of a phone call or fax.
 
 References
 1. [McKesson EDI Data Integration](https://www.mckesson.com/Pharmaceutical-Distribution/Data-Integration/)
