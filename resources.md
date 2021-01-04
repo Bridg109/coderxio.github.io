@@ -1,6 +1,8 @@
-Resources
----------
-### Table of Contents
+---
+layout: default
+---
+#Resources
+## Contents
 * [OpenFDA](#openfda)
 * [Design](#design)
   * Colors
