@@ -66,8 +66,6 @@ Design
 
 <https://coolors.co/>
 
-###
-
 ### React
 
 <https://divjoy.com/>
@@ -86,13 +84,9 @@ Design
 
 <https://dev.to/theme_selection/best-design-resources-websites-every-developer-should-bookmark-1p5d?utm_source=digest_mailer&amp;utm_medium=email&amp;utm_campaign=digest_email>
 
-###
-
 <https://9elements.com/blog/pure-css-diagonal-layouts/>
 
 ### Angular
-
-###
 
 <https://material.angular.io/cdk/layout/overview>
 
@@ -125,8 +119,6 @@ NIH / NLM
 <https://www.nlm.nih.gov/ep/index.html> - NLM grants
 
 <https://clinicaltables.nlm.nih.gov/>
-
---
 
 <https://rxnav.nlm.nih.gov/RxNav-in-a-Box.html>
 
@@ -171,8 +163,6 @@ General
 
 <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4153752/> - PharmGKB (genomics)
 
---
-
 Visual Studio Code
 ------------------
 
@@ -199,8 +189,6 @@ Web Scraping
 
 <https://www.webscraper.io/> - Chrome extension
 
---
-
 JavaScript
 ----------
 
@@ -225,8 +213,6 @@ GitHub Pages
 ------------
 
 <https://blog.bloomca.me/2017/12/15/how-to-push-folder-to-github-pages.html>
-
---
 
 <https://docs.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll>
 
@@ -319,8 +305,6 @@ Data Science
 <https://pythonspeed.com/articles/pandas-load-less-data/>
 
 <https://link.medium.com/qaMFeVzHBab> - combining Python and Tableau
-
---
 
 Amazon Web Services (AWS)
 -------------------------
