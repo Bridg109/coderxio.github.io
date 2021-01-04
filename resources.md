@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-#Resources
+# Resources
 ## Contents
 * [OpenFDA](#openfda)
 * [Design](#design)
