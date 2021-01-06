@@ -222,6 +222,12 @@ GitHub Pages
 
 <https://github.com/pages-themes/minimal> - minimal Jekyll theme
 
+<https://jekyll.github.io/github-metadata/site.github/> - Jekyll GitHub site metadata
+
+<https://jekyllrb.com/docs/variables/> - Jekyll global variables
+
+<https://jekyllrb.com/docs/posts/#tags-and-categories> - Jekyll tags and categories
+
 RxNorm
 ------
 
